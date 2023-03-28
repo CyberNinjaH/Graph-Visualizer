@@ -28,7 +28,7 @@ def AddToGraph():
         net.add_edge(a, b)
 
 def GetFromFiles():
-    n_nodes = int(contentNodes[0])
+    n_nodes = int(contentNodes[0]) + 1
     del contentNodes[0]
 
     for line in range(0, n_nodes - 1):
